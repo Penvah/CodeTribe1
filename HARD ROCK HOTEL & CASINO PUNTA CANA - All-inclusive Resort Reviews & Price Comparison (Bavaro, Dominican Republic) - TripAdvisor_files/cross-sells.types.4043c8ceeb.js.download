@@ -1,0 +1,2 @@
+(window.$WP=window.$WP||[]).push({id:"@ta/cross-sells.types",e:["./packages/cross-sells/types/index.jsx"],x:{"./packages/cross-sells/types/index.jsx":["DisplayState"]},m:{"./packages/cross-sells/types/index.jsx":function(s,e,i){"use strict";i.r(e);var t={HIDDEN:"hidden",LOADING:"loading",SHOWING:"showing"};i.d(e,"DisplayState",function(){return t})}}});
+//# sourceMappingURL=cross-sells.types.4043c8ceeb.js.map
