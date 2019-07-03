@@ -10,6 +10,9 @@ import { AboutComponent } from './about/about.component';
 import { BookInfoComponent } from './book-info/book-info.component';
 import { FacilitiesComponent } from './facilities/facilities.component';
 import { GalleryComponent } from './gallery/gallery.component';
+import { BookInComponent } from './book-in/book-in.component';
+import { PaymentComponent } from './payment/payment.component';
+import { DetailComponent } from './detail/detail.component';
 
 @NgModule({
   declarations: [
@@ -19,7 +22,10 @@ import { GalleryComponent } from './gallery/gallery.component';
     AboutComponent,
     BookInfoComponent,
     FacilitiesComponent,
-    GalleryComponent
+    GalleryComponent,
+    BookInComponent,
+    PaymentComponent,
+    DetailComponent
   ],
   imports: [ReactiveFormsModule,FormsModule,
     BrowserModule,

@@ -1,28 +1,33 @@
-<p>
-  {{firstName}}
-  <br>
-  {{lastName}}
-  <br>
-  {{email}}
-  <br>
-  {{password}}
-  <br>
-  {{confirm}}
-  <br>
-  {{checkinDate}}
-  <br>
-  {{checkoutDate}}
-  <br>
-  {{days}}
-  <br>
-  {{phoneNumber}}
-  <br>
-  {{height}}
-  <br>
-  {{number}}
-  <br>
-  {{female}}
-  <br>
-  {{male}}
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<div class="container">
+  <div class="row">
+  <div class="col-xs-12 col-sm-12 col-md-12">
+  <h2>Please fill all mandatory(*) fields</h2>
+  <div class="form-group">
+      <input type="text"[(ngModel)] = "name" placeholder="Enter Name *" required>
+    </div>
+	
+	<div class="form-group">
+      <input type="text" [(ngModel)] = "surname"  placeholder="Enter Second Name *"  required>
+    </div>
+	
+    	<div class="form-group">
+      <input type="email"[(ngModel)] = "email" placeholder="Enter email *"  required>
+    </div>
+	<div class="form-group">
+      <input type="number" [(ngModel)] = "location" placeholder="Adults *"  required>
+   </div>
+   <div class="form-group">
+      <input type="number"[(ngModel)] = "number" placeholder="Children*"  required>
+   </div>
+    <div class="checkbox">
+      <label><input type="checkbox" name="remember"> <span>Remember me</span></label>
+    </div>
+    <button (click)="onLogin()">Submit <i class="glyphicon glyphicon-send"></i></button>
+  </div>
+  </div>
   
-</p>

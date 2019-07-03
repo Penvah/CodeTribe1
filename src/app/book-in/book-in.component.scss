@@ -1,0 +1,188 @@
+body{
+  background-color:#fff;
+  font-family:"Open Sans", sans-serif;
+}
+header {
+        background:#24195f;
+        color:#fff;
+        font-size: 15px;
+}
+h1  {
+        margin-top: 10px;
+        
+}
+ .ul1 {
+    float:right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+.ul1 li {
+    float: left;
+}
+
+.gallery {
+     padding-top: 30px;
+}
+  
+.ul1 li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 22px 25px;
+    text-decoration: none;
+ }
+
+.content {
+  margin-top: 20px;
+}
+
+.list-service {
+  margin-top: 10px;
+  padding: 0;
+}
+
+.list-service li {
+  list-style: none;
+  text-align: left;
+  padding-top: 10px;
+  padding-bottom: 3px;
+  font-weight: bold;
+}
+
+.mypanel {
+  background-color: #d8d8d8;
+  padding: 20px;
+}
+
+.mypanel-title {
+  color: black;
+  font-size: 24px;
+  text-align: center;
+}
+
+.thumb img {
+  margin-right: 7px;
+  width: 110px;
+  padding:4px;
+}
+
+.liz-navbar {
+  margin-top: 20px;
+}
+
+.liz-navbar-title {
+  background-color: #24195f;
+  color: #fff;
+  padding: 10px;
+  font-size: 18px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.list-interest {
+  margin-top: 10px;
+  margin-left: 0;
+  padding: 0;
+}
+
+.list-interest li {
+  list-style: none;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-bottom: solid 1px #ccc;
+}
+
+.list-interest li a {
+  color: #24195f;
+  text-decoration: none;
+  display: block;
+}
+
+.list-interest li a:hover {
+  background-color: #ccc;
+}
+
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+#form-container {
+  max-width: 1300px;
+  height:118px;
+  background-color:#ccc;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  font-family: Roboto;
+}
+
+.check {
+  flex: 3 3 400px;
+}
+
+#form-container .check label {
+  color:#2F80ED; 
+  max-width:100px;
+  font-size:14px; 
+  font-weight:900; 
+  padding-right:30px;
+}
+
+#form-container .check input {
+  border-style:none; font-size:19px;
+  max-width:300px;
+  height: 46px;
+  background: #D7E5F8 url(https://cdn1.iconfinder.com/data/icons/cc_mono_icon_set/blacks/16x16/calendar_2.png)  97% 50% no-repeat
+}
+
+.persons {
+  flex: 2 2 320px;
+}
+
+#form-container .persons label {
+  color:#2F80ED; 
+  max-width:100px;
+  font-size:14px; 
+  font-weight:900; 
+  padding-right:30px;
+}
+
+#form-container .persons select {
+  width: 148px;
+  height: 48px;
+  background-color:#D7E5F8;
+}
+
+.booknow {
+  flex: 3 3 320px;
+
+}
+
+#form-container .booknow input {
+  width:150px;
+  height: 48px;
+   background-color:#2F80ED; color:white; border-radius: 25px; font-size:15px;
+}
+@-webkit-keyframes zoom {
+  from {
+    -webkit-transform: scale(1, 1);
+  }
+  to {
+    -webkit-transform: scale(1.5, 1.5);
+  }
+}
+
+@keyframes zoom {
+  from {
+    transform: scale(1, 1);
+  }
+  to {
+    transform: scale(1.5, 1.5);
+  }
+}
+
+.carousel-inner .item > img {
+  -webkit-animation: zoom 20s;
+  animation: zoom 20s;
+}

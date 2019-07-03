@@ -7,7 +7,7 @@ import { Router } from '@angular/router';
   styleUrls: ['./menu.component.scss']
 })
 export class MenuComponent implements OnInit {
-  navArray =[{path:"menu/about",name:"About"},{path:"menu/gallery",name:"Gallery"},{path:"menu/facilities",name:"Facilities"},]
+  navArray =[{path:"menu/about",name:"About"},{path:"menu/book-in",name:"Book-In"},{path:"menu/payment",name:"Payment"},]
 
   constructor(private router:Router) { }
 
